@@ -19,5 +19,5 @@ if test -z "$CDE_CACHE_MAX"
 end
 
 function __cde_on_variable_pwd -v PWD
-  __cde_update
+    __cde_update
 end

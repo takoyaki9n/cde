@@ -11,6 +11,6 @@ function __cde_update
             echo "$PWD"
             grep -v "$PWD" "$CDE_CACHE"
         end | \
-            head -n $CDE_CACHE_MAX > $CDE_CACHE
+            head -n $CDE_CACHE_MAX >$CDE_CACHE
     end
 end
