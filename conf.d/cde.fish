@@ -18,6 +18,10 @@ if test -z "$CDE_CACHE_MAX"
     set -U CDE_CACHE_MAX 100
 end
 
+if test -z "$CDE_IGNORE_PATH"
+    set -U CDE_IGNORE_PATH $HOME
+end
+
 function __cde_on_variable_pwd -v PWD
     __cde_update
 end

@@ -1,3 +1,4 @@
+# Reset original completion
 complete -c cd -e
 
 complete -c cd -a '(__fish_complete_cde)'

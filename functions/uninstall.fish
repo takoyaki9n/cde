@@ -9,3 +9,4 @@ end
 set -e CDE_CACHE_DIR
 set -e CDE_CACHE
 set -e CDE_CACHE_MAX
+set -e CDE_IGNORE_PATH
