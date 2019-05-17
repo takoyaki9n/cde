@@ -15,7 +15,7 @@ if test ! -f "$CDE_CACHE"
 end
 
 if test -z "$CDE_CACHE_MAX"
-    set -U CDE_CACHE_MAX 20
+    set -U CDE_CACHE_MAX 100
 end
 
 if test -z "$CDE_IGNORE_PATH"
