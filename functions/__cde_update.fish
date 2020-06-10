@@ -12,7 +12,7 @@ function __cde_update -a dir -d "Update cde cache file:$CDE_CACHE"
             set CDE_CACHE_MAX 100
         end
 
-        set -l dirs (cat "$CDE_CACHE" | string match -r -v "^$dir\$") $dir
+        set -l dirs (cat "$CDE_CACHE") $dir
         string split " " "$dirs" | tail -n "$CDE_CACHE_MAX" > "$CDE_CACHE"
     end
 end
